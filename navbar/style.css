@@ -1,0 +1,380 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.container{
+    overflow: hidden;
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    
+
+}
+.container ul{
+    display: flex;
+}
+
+.container ul li{
+    list-style: none;
+    padding: 8px;
+    margin: 30px;
+    
+}
+.container ul li:hover{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 12px;
+}
+
+
+.container ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    margin:0px 0px;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 1;
+
+
+}
+
+
+
+
+.container::after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.2;
+    
+}
+.main-container::before{
+    content: '';
+    background: url(Untitled\ design.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.para-1{
+    display: flex;
+    height: 92vh;
+
+    flex-direction: column;
+   
+    justify-content: end;
+    align-items: center;
+    padding: 30px 30px;
+    color: white;
+    font-size: 30px;
+    opacity: 1;
+    
+    
+    
+}
+.h1-class{
+    text-align: center;
+    margin: 25px 10px;
+    padding: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.new-container{
+   display: flex;
+   justify-content: space-evenly;
+   
+   
+    
+}
+
+.new-container h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.section1{
+    border: 2px solid black;
+    position: relative;
+    border-radius: 12px;
+    transform: 0.5s all ease;
+    width: 300px;
+    height: 60vh;
+    box-shadow: 0px 0px 10px 8px black;
+    
+    
+}
+
+.section1:hover{
+    transform: scale(1.2) ;
+}
+
+
+
+
+.section1 img{
+    width: 150px;
+    height: 25vh;
+    position: absolute;
+    top: 0%;
+    left:27%;
+   
+
+    
+}
+.section1 h1{
+   position: absolute;
+   top:40%;
+   left: 38%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1 p{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    opacity: 0.8;
+}
+
+.new-button{
+    position: absolute;
+    top: 80%;
+    left: 33%;
+    opacity: 0.8;
+    
+}
+.new-button button{
+    padding:7px 16px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+/*section2*/
+
+.section2{
+    border: 1px solid black;
+    position: relative;
+    border-radius: 12px;
+    transform: 0.5s all ease;
+    width: 300px;
+    height: 60vh;
+    box-shadow: 0px 0px 10px 8px black;
+    
+    
+}
+
+.section2:hover{
+    transform: scale(1.2) ;
+}
+
+
+
+
+.section2 img{
+    width: 150px;
+    height: 25vh;
+    position: absolute;
+    top: 0%;
+    left:27%;
+   
+
+    
+}
+.section2 h1{
+   position: absolute;
+   top:40%;
+   left: 38%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section2 p{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    opacity: 0.8;
+}
+
+.new-button1{
+    position: absolute;
+    top: 80%;
+    left: 33%;
+    opacity: 0.8;
+    
+}
+.new-button1 button{
+    padding:7px 16px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+/*SECTION3*/
+
+.section3{
+    border: 1px solid black;
+    position: relative;
+    border-radius: 12px;
+    transform: 0.5s all ease;
+    width: 300px;
+    height: 60vh;
+    box-shadow: 0px 0px 10px 8px black;
+    
+    
+}
+
+.section3:hover{
+    transform: scale(1.2) ;
+}
+
+
+
+
+.section3 img{
+    width: 150px;
+    height: 25vh;
+    position: absolute;
+    top: 0%;
+    left:27%;
+   
+
+    
+}
+.section3 h1{
+   position: absolute;
+   top:40%;
+   left: 30%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section3 p{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    opacity: 0.8;
+}
+
+.new-button2{
+    position: absolute;
+    top: 80%;
+    left: 33%;
+    opacity: 0.8;
+    
+}
+.new-button2 button{
+    padding:7px 16px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+/*about*/
+#About{
+    background-color: black;
+    margin: 50px;
+    height: 40vh;
+
+}
+#About h1{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#About p{
+    border: 1px solid black;
+    text-align: center;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.p-class{
+    width: 60%;
+    float: right;
+}
+
+.items{
+    
+    height: 250px;
+    width: 550px;
+    
+}
+.items img{
+    height: 200px;
+    width: 300px;
+   object-fit: cover;
+   float: right;
+
+}
+
+.container input{
+    width: 200px;
+    height: 140px;
+}
+
+/*contact us*/
+.contact-h1 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-form{
+    height: 50vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 12px;
+}
+
+.container-form label{
+    margin: 9px;
+    
+}
+
+.container-form input{
+    height: 60px;
+    width: 98%;
+    margin: 6px;
+}
+
+.container-submit input{
+    background-color: #4CAF50;
+    color: #f2f2f2;
+
+}
+
+.container-submit input:hover{
+    background-color: #45a049;
+}
+
+.new-footer{
+    border: 2px solid black;
+    height: 150px;
+    width: 100%;
+    background-color: grey;
+}
+
